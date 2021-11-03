@@ -1,8 +1,8 @@
 pragma solidity ^0.4.11;
 
 
-import './linkBasicToken.sol';
-import './linkERC20.sol';
+import 'https://github.com/javaknows/LinkToken/blob/master/contracts/v0.4/token/linkBasicToken.sol';
+import 'https://github.com/javaknows/LinkToken/blob/master/contracts/v0.4/token/linkERC20.sol';
 
 
 /**
