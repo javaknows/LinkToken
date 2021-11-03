@@ -6,7 +6,7 @@ import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/E
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol";
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol";
 import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ERC677.sol";";
-import "./ITypeAndVersion.sol";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ITypeAndVersion.sol";
 
 /**
  * @notice This contract provides a one-to-one swap between pairs of tokens. It
