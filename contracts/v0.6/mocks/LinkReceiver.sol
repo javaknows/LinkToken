@@ -2,7 +2,7 @@
 pragma solidity >0.6.0 <0.8.0;
 
 import "../../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
-import "../token/IERC677Receiver.sol";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/token/IERC677Receiver.sol";
 
 contract LinkReceiver is IERC677Receiver {
   bool public fallbackCalled;
