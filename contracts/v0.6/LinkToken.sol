@@ -2,7 +2,7 @@
 pragma solidity >0.6.0 <0.8.0;
 
 import "./token/LinkERC20.sol";
-import "./ERC677.sol";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ERC677.sol";
 import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ITypeAndVersion.sol";
 
 /// @dev LinkToken, an ERC20/ERC677 Chainlink token with 1 billion supply
