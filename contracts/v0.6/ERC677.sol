@@ -2,8 +2,8 @@
 pragma solidity >0.6.0 <0.8.0;
 
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
-import "./token/IERC677.sol";
-import "./token/IERC677Receiver.sol";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.4/ERC677Token.sol";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ERC677.sol";
 
 abstract contract ERC677 is IERC677, ERC20 {
   /**
