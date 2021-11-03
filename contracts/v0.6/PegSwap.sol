@@ -5,7 +5,7 @@ import "../../vendor/smartcontractkit/chainlink/evm-contracts/src/v0.6/Owned.sol
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/utils/ReentrancyGuard.sol";
 import "../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol";
-import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ERC677.sol";";
+import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/token/IERC677Receiver.sol";
 import "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ITypeAndVersion.sol";
 
 /**
