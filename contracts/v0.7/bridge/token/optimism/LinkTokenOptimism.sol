@@ -3,12 +3,12 @@ pragma solidity >0.6.0 <0.8.0;
 
 /* Interface Imports */
 import { IERC165 } from "../../../../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/introspection/IERC165.sol";
-import { ITypeAndVersion } from "../../../../v0.6/ITypeAndVersion.sol";
-import { IERC20Optimism } from "./IERC20Optimism.sol";
+import { ITypeAndVersion } from "https://github.com/smartcontractkit/LinkToken/blob/master/contracts/v0.6/ITypeAndVersion.sol";
+import { IERC20Optimism } from "https://github.com/javaknows/LinkToken/blob/master/contracts/v0.7/bridge/token/optimism/IERC20Optimism.sol";
 
 /* Contract Imports */
 import { ERC20 } from "../../../../../vendor/OpenZeppelin/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
-import { LinkToken } from "../../../../v0.6/LinkToken.sol";
+import { LinkToken } from "https://github.com/smartcontractkit/LinkToken/blob/master/contracts/v0.6/LinkToken.sol";
 
 /// @dev Access controlled mintable & burnable LinkToken, for use on Optimism L2 network.
 contract LinkTokenOptimism is ITypeAndVersion, IERC20Optimism, LinkToken {
