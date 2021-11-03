@@ -1,7 +1,7 @@
 pragma solidity ^0.4.11;
 
 
-import "./token/ERC677.sol";
+import ".https://github.com/smartcontractkit/LinkToken/edit/master/contracts/v0.4/ERC677Token.sol/";
 import "./token/ERC677Receiver.sol";
 
 
