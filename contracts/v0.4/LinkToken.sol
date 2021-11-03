@@ -1,8 +1,8 @@
 pragma solidity ^0.4.11;
 
 
-import './ERC677Token.sol';
-import './token/linkStandardToken.sol';
+import 'https://github.com/javaknows/LinkToken/blob/master/contracts/v0.6/ERC677.sol';
+import 'https://github.com/javaknows/LinkToken/blob/master/contracts/v0.4/token/linkStandardToken.sol';
 
 
 contract LinkToken is linkStandardToken, ERC677Token {
